@@ -11,7 +11,7 @@ with open(os.path.join(here, "markscribe", "version.py"), "r") as f:
     exec(f.read(), about)
 
 setuptools.setup(
-    name="canaia-utils",
+    name="markscribe",
     version=about["__version__"],
     author=about["__author__"],
     description=about["__description__"],
